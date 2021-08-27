@@ -1,0 +1,112 @@
+body {
+    background: rgba(17, 17, 17, 0.768);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family:'Josefin Sans', sans-serif;
+    background: url(f0ndo69.jpg);
+}
+
+.header {
+    background: rgba(22, 22, 22, .8);
+    padding: 0px 20px;
+}
+
+.header a img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.header a {
+    padding: 0px 60px;
+    text-decoration: none;
+}
+
+.img-a-header {
+    margin-right: 30px;
+}
+
+.a-header {
+    color: #aa00ff;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.header a:visited {
+    color: #ce06b7;
+}
+
+.a-header-b:visited {
+    color: #ce06b7;
+}
+
+.h1-body {
+    text-align: center;
+    animation-name: h1Colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.p-body {
+    text-align: center;
+}
+
+.chica-anime {
+    width: 650px;
+    height: 350px;
+}
+
+.chica-anime:active {
+    width: 850px;
+    height: 450px;
+}
+
+.creadores-CR {
+    font-size: 19px;
+    color: #fff;
+    animation-name: crColores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.friends-pr {
+    width: 650px;
+    height: 350px;
+    text-align: center;
+}
+
+.friends-pr:active {
+    width: 850px;
+    height: 450px;
+}
+
+body p {
+    margin: auto;
+    padding: auto;
+}
+
+@keyframes h1Colores {
+    0% {
+        color: #ff0000;
+    }
+    50% {
+        color: #00ff00;
+    }
+    100% {
+        color: #0000ff;
+    }
+}
+
+@keyframes crColores {
+    0% {
+        color: #ff0000;
+    }
+    50% {
+        color: #00ff00;
+    }
+    100% {
+        color: #0000ff;
+    }
+}

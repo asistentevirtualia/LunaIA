@@ -1,0 +1,152 @@
+/* BODY */
+
+body {
+    background: rgba(17, 17, 17, 0.768);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family:'Josefin Sans', sans-serif;
+    background: url(f0ndo69.jpg);
+}
+
+/* HEADER */
+
+.header {
+    background: rgba(22, 22, 22, .8);
+    padding: 0px 13px;
+}
+
+.header a img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.header a {
+    padding: 0px 60px;
+    text-decoration: none;
+}
+
+.img-a-header {
+    margin-right: 30px;
+}
+
+.a-header {
+    color: #aa00ff;
+}
+
+.a-header-b {
+    color: #aa00ff;
+}
+
+/* MAIN-BODY */
+
+.main-body h1 {
+    text-align: center;
+    animation-name: h1Colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.main-body h2 {
+    text-align: center;
+    animation-name: h2Colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.main-body p {
+    text-align: center;
+}
+
+.main-body .novedades {
+    text-align: center;
+    animation-name: h3Colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.img-pr {
+    width: 500px;
+    height: 300px;
+}
+
+.img-pr:active {
+    width: 750px;
+    height: 500px;
+}
+
+.p-image {
+    text-align: center;
+}
+
+.img-Luna {
+    width: 500px;
+    height: 350px;
+}
+
+.img-Luna:active {
+    width: 800px;
+    height: 600px;
+}
+
+.main-body footer {
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 50px;
+    color: #666666;
+    font-size: 9px;
+}
+
+/* ANIMATIONS */
+
+.header a:visited {
+    color: #ce06b7;
+}
+
+.a-header-b:visited {
+    color: #ce06b7;
+}
+
+/* KEYFRAMES */
+
+@keyframes h1Colores {
+    0% {
+        color: #ff0000;
+    }
+    50% {
+        color: #00ff00;
+    }
+    100% {
+        color: #0000ff;
+    }
+}
+
+@keyframes h2Colores {
+    0% {
+        color: #ff0000;
+    }
+    50% {
+        color: #00ff00;
+    }
+    100% {
+        color: #0000ff;
+    }
+}
+
+@keyframes h3Colores {
+    0% {
+        color: #ff0000;
+    }
+    50% {
+        color: #00ff00;
+    }
+    100% {
+        color: #0000ff;
+    }
+}
+
+/* MEDIAQUERIES */
